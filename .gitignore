@@ -1,0 +1,2 @@
+# ignore Matlab's temporary .m-files
+*.m~

@@ -9,9 +9,10 @@ if ~exist('removeUntracked','var')
 end
 
 % reset all tracked files to last commit
-unix('git reset --hard HEAD')
+[~,~]=unix('git reset --hard HEAD');
 
 if removeUntracked
-    unix('git clean -f')
+    unix('git clean -f');
 end
+
 end

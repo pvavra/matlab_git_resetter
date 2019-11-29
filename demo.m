@@ -1,5 +1,6 @@
-x = 1;
 
-y = demo_subfunction(x);
+Git_Reset()
 
-disp(y)
+x = 1
+y = demo_subfunction(x)
+
